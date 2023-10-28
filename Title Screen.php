@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paw-Paw Cafe</title>
-    <link rel="stylesheet" href="Style/Title Screen.css">
+    <link rel="stylesheet" href="css/Title Screen.css">
 </head>
 <body>    
 
