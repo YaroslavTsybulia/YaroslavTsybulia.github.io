@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Paw-Paw Café</title>
+    <link rel="stylesheet" href="css/Menu.css">
+</head>
+<body>
+
+        <header class="header">
+       
+        <a href="Title Screen.html">  
+         <img src="images/icon.jpg" alt="Header Image" class="header-image">
+        </a>
+
+        <div class="button-container">    
+        
+        <a href="Main Page.html">
+            <button class="header-button">About Us</button>
+        </a>
+    
+        <button class="used-button">Menu</button>
+
+        <a href="Toys.html">
+            <button class="header-button">Toys</button>
+        </a>
+
+        <a href="Services.html">
+            <button class="header-button">Services</button>
+        </a>
+
+        <a href="News.html">
+            <button class="header-button">News</button>
+        </a>
+
+        <a href="Gallery.html">
+            <button class="header-button">Gallery</button>
+        </a>
+      
+        <a href="At Development.php">
+            <button class="header-button">Places</button>
+        </a>
+
+       <div class="data">
+         <h3>Wednesday, October 18th</h3>
+         <fieldset class="vt-line"></fieldset>
+        <a href="Profile.html">
+          <img src="images/Avatar.png" alt="Avatar Image" class="avatar">
+         </a>
+       </div>
+   </div>
+       
+    </header>
+<!--------------------------------------------->
+    
+    <script src="Menu.js"></script>
+    <div class="content">
+        <h1>Choose the menu you're looking for</h1>
+
+    	<div class="container">
+         <img src="images/Hooman.jpg" class="cafe-image" onclick="openGallery('gallery1')"></img>
+         <img src="images/Doggo.jpg" class="cafe-image" onclick="openGallery('gallery2')"></img>
+         <img src="images/Puss.jpg" class="cafe-image" onclick="openGallery('gallery3')"></img>
+         </div>
+    </div>
+
+      <!-- Gallery 1 -->
+    <div id="gallery1" class="gallery">
+        <div class="gallery-content">
+            <span class="close-button" onclick="closeGallery('gallery1')">EXIT</span>
+            <!-- Add your images for Gallery 1 here -->
+            <img  src="images/Sandwich.jpg" class="cafe-image" onclick="openGallery('food1')">
+            <img  src="images/Croissant.jpg" class="cafe-image" onclick="openGallery('food2')">
+            <img  src="images/GrilledSandwich.jpg" class="cafe-image" onclick="openGallery('food3')">
+        </div>
+    </div>
+
+    <div id="food1" class="gallery">
+        <div class="food-content">
+            <span class="close-button" onclick="closeFood('food1')">EXIT</span>
+            <img  src="images/Sandwich.jpg"  class="food-image">
+              <div class="food-button">Add to a cart</div>
+              <div class="available-button">Is available</div>
+            <div class="container">
+                <div class="info-container">
+                <h4>
+                  1) Classic Ham Club Sandwich(Sliced ham, fresh lettuce, juicy tomatoes, and creamy mayo, embraced by seedful bread): A timeless favorite featuring thinly sliced ham, crisp lettuce, ripe tomatoes, and creamy mayo, all nestled between perfectly toasted bread slices. Price: $X.XX
+                </h4>
+                <h4>
+                  2) Succulent Beef Club Sandwich(Beef, crisp lettuce, pickles, and zesty horseradish sauce, melded between slices of bread.): Indulge in the richness of succulent beef layered with crisp lettuce, tangy pickles, and a zesty horseradish sauce, expertly encased in soft, toasted bread. Price: $X.XX
+                </h4>
+                <h4>
+                  3) Tender Chicken/Turkey Club Sandwich(ender chicken/turkey, avocado, crispy bacon, and chipotle mayo all pressed between slices of dark bread): Experience tenderness with every bite as tender chicken or turkey meets the creaminess of avocado, the crunch of crispy bacon, and the kick of chipotle mayo, all harmoniously wrapped in bread. Price: $X.XX
+                </h4>
+                <h4>
+                  4) Vegetarian Delight with Extra Cheese(Crisp lettuce, cucumber, avocado, and extra cheese, a cheesy paradise for our vegetarian guests): A vegetarian's dream come true! Crisp lettuce, refreshing cucumber, and creamy avocado join forces with extra cheese, creating a delightful medley of textures and flavors, encased in bread perfection. Price: $X.XX
+                </h4>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="food2" class="gallery">
+        <div class="food-content">
+            <span class="close-button" onclick="closeFood('food2')">EXIT</span>
+            <img  src="images/Croissant.jpg" class="food-image">
+              <div class="food-button">Add to a cart</div>
+              <div class="unavailable-button">Is unavailable</div>
+            <div class="container">
+                <div class="info-container">
+                <h4>
+                  Elevate your breakfast with our Croissant with Eggs! A buttery croissant enfolds a luscious filling of fluffy scrambled eggs, accented by creamy melted cheese, savory sautéed mushrooms, and a hint of aromatic chives. Each bite is a symphony of flavors and textures, making it a delectable four-ingredient marvel. Price: $X.XX
+                </h4>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="food3" class="gallery">
+        <div class="food-content">
+            <span class="close-button" onclick="closeFood('food3')">EXIT</span>
+            <img  src="images/GrilledSandwich.jpg" class="food-image">
+              <div class="food-button">Add to a cart</div>
+              <div class="available-button">Is available</div>
+            <div class="container">
+                <div class="info-container">
+                <h4>
+                  1. Grilled Ham & Cheese Sandwich: Classic comfort meets a gourmet twist! Dive into layers of smoky ham and creamy melted cheese, perfectly grilled between slices of golden bread. Simple, yet incredibly satisfying. Price: $X.XX
+                </h4>
+                <h4>
+                  2. Grilled Chicken Pesto Sandwich: Tender grilled chicken, velvety pesto sauce, and a sprinkle of Parmesan cheese unite in this Italian-inspired delight. A burst of flavors in every bite.Price: $X.XX
+                </h4>
+                <h4>
+                  3. Grilled Veggie Delight: A veggie lover's dream! Grilled bell peppers, zucchini, and mushrooms mingle with melted cheese, creating a colorful and flavorful medley. Fresh, wholesome, and utterly delicious. Price: $X.XX
+                </h4>
+                <h4>
+                  4. Grilled Turkey & Cranberry Panini: Thanksgiving on a plate! Succulent turkey meets the sweet tang of cranberry sauce, all hugged by perfectly grilled bread. A taste of holiday warmth any day of the year. Price: $X.XX
+                </h4>
+                <h4>
+                 5. Grilled Caprese Sandwich: Experience freshness like never before! Juicy tomatoes, creamy mozzarella, and basil leaves, drizzled with balsamic glaze, create a Mediterranean masterpiece. Simple, elegant, and utterly divine. Price: $X.XX
+                </h4>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery 2 -->
+    <div id="gallery2" class="gallery">
+        <div class="gallery-content">
+            <span class="close-button" onclick="closeGallery('gallery2')">EXIT</span>
+            <!-- Add your images for Gallery 2 here -->
+            <img src="image4.jpg" alt="Image 4">
+            <img src="image5.jpg" alt="Image 5">
+            <img src="image6.jpg" alt="Image 6">
+        </div>
+    </div>
+
+    <!-- Gallery 3 -->
+    <div id="gallery3" class="gallery">
+        <div class="gallery-content">
+            <span class="close-button" onclick="closeGallery('gallery3')">EXIT</span>
+            <!-- Add your images for Gallery 3 here -->
+            <img src="image7.jpg" alt="Image 7">
+            <img src="image8.jpg" alt="Image 8">
+            <img src="image9.jpg" alt="Image 9">
+        </div>
+
+    </div>
+<!--------------------------------------------->
+       <footer>
+        <div class="contact">
+            <h2>Contact Us</h2> 
+            <h3>Email: info@pawpawcafe.com</h3>
+            <h3>Phone: (123) 456-7890</h3>
+        </div>
+        <div class="social">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="#paw_paw_cafe" target="_blank">Facebook</a></li>
+                <li><a href="#paw_paw_cafe" target="_blank">Twitter</a></li>
+                <li><a href="#paw_paw_cafe" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <h2>&copy; 2023 Paw-Paw Café</h2>
+    </footer>
+</body>
+</html>
