@@ -243,14 +243,12 @@ label {
 .contact{
     display: inline-block;
     text-align: left;
-    margin: 10px;
     width: 45%;
 }
 
 .social{
 display: inline-block;
     text-align: right;
-    margin: 10px;
     width: 45%;
 }
 
