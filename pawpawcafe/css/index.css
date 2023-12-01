@@ -29,6 +29,10 @@ nav li {
     margin-right: 20px;
 }
 
+::marker{
+  color: transparent;
+}
+
 nav a {
     text-decoration: none;
     color: #fbdab7;
