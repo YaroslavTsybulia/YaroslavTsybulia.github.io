@@ -1,5 +1,5 @@
 function goToPage(){
-    window.location.href = 'pawpawcafe/Main%20Page.html';
+    window.location.href = 'Main%20Page.html';
 }
 
 function openRegister() {
