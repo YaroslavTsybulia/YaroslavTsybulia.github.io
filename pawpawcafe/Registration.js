@@ -1,5 +1,5 @@
 function goToPage(){
-    window.location.href = 'https://yaroslavtsybulia.github.io/pawpawcafe/Main%20Page.html';
+    window.location.href = 'pawpawcafe/Main%20Page.html';
 }
 
 function openRegister() {
