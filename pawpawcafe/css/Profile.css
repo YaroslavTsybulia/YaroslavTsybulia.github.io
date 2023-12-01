@@ -1,0 +1,227 @@
+/*<-- header stuff -->*/
+.header {
+    margin: -10px;
+    background-color: #773d0d;
+    padding: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-image {
+    max-width: 15vw; /* Adjust the image size as needed */
+    height: auto;
+    margin-right: 1vw;
+}
+
+.button-container {
+    flex-grow: 1;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.header-button {
+    flex-grow: 1; /* Make each button fill the available space evenly */
+    background-color: #6b380e; /* Button background color */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1vw; 
+    color: #fff;
+    border: none;
+    padding: 1vw 2vw;
+    margin-bottom: 0vw;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center button text */
+}
+
+.used-button {
+    flex-grow: 1;
+    background-color: #502a0b;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1vw;
+    color: #fff;
+    border: none;
+    padding: 0.3vw 2vw;
+    margin-bottom: 0vw;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-button:hover {
+    background-color: #502a0b;
+}
+
+.data{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5vw;
+}
+
+.avatar{
+    width: 3.5vw;
+    border: 0.35vw solid #302000;
+    border-radius: 40px;
+    cursor: pointer;
+    background-image: url("Images/Avatar.png");
+}
+
+.vt-line {
+    margin-right: 2vw;
+    height: 4vw;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 0.3vw solid #302000;
+    border-image: initial;
+}
+/*<-- body -->*/
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1vw;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.avatar{
+    width: 20vw;
+    border: 0.75vw solid #302000;
+    border-radius: 20vw;
+    cursor: pointer;
+    margin: 2vw;
+    margin-top: 1vw;
+}
+
+.hr-line {
+    margin: 0vw -1vw;
+    width: 100%;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 0.3vw solid #302000;
+}
+
+.profile-island {
+    margin: 0vw -1vw;
+    background-color: #dba770;
+    padding: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 0px 20px 0px #31160080;;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+.container{
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    z-index: -1;
+}
+
+.info-container {
+    width: -webkit-fill-available;
+    text-align: -webkit-left;
+    margin-bottom: 1vw;
+}
+
+.cafe-image {
+    width: 250px;
+    padding: 1vw;
+}
+
+.sign{
+    border: 0.25vw solid #4d3521;
+    border-radius: 5px;
+}
+
+/*<-- footer stuff-->*/
+footer {
+    margin: 0vw -1vw -2vw -1vw;
+    background-color: #773d0d;
+    color: white;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contact  {
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    width: 45%;
+}
+
+.social  {
+    display: inline-block;
+    text-align: right;
+    margin: 10px;
+    width: 45%;
+}
+
+/*<-- fonts -->*/
+nav ul { 
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 1.35vw;
+    text-decoration: none;
+    color: #fbdab7;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0.75vw;
+    margin-left: 0vw; 
+}
+
+h2 {
+    font-size: 2vw;
+    color: #fbdab7;
+}
+
+h3 {
+    font-size: 1.35vw;
+    color: #fbdab7;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0vw 0vw 0.5vw 2vw;
+}

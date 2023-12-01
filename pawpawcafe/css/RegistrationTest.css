@@ -1,0 +1,265 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.hidden-container {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}/* Remove this CSS for the header and footer layout */
+
+
+/* Center the registration container */
+.registration-container {
+    background-color: #fdaf5d;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5vw;
+    padding: 2vw;
+    border: 0.6vw solid #773d0d;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Style for the input containers */
+.input-container {
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cafe-image{
+  width:  20vw;
+  padding: 1vw;
+}
+
+/* Style for input fields */
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the submit button */
+
+.sign-up{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;    
+    background-color: #773d0d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ 
+.my-button {
+    text-align: center;
+    width: -webkit-fill-available;
+    padding: 1vw;
+    background-color: #773d0d;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.my-button:hover {
+    background-color: #773d0d; /* Button background color on hover */
+    color: #fff; /* Button text color on hover */
+    border-color: #6a3413; /* Button border color on hover */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.25); /* Slightly reduced shadow on hover */
+}
+
+.social-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+button[type="google"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: justify;
+
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #dc1c1c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="google"]:hover {
+    background-color: #b11515;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Slightly reduced shadow on hover */ 
+}
+
+button[type="facebook"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: justify;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2d2d9f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="facebook"]:hover {
+    background-color: #22227c;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Slightly reduced shadow on hover */ 
+}
+
+button[type="twitter"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: justify;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #37aeeb;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="twitter"]:hover {
+    background-color: #2f90c1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Slightly reduced shadow on hover */ 
+}
+
+button[type="apple"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: justify;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #101010;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="apple"]:hover {
+    background-color: #000000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Slightly reduced shadow on hover */ 
+}
+
+.hr-line{
+    margin: 10px 15px;
+    width: -webkit-fill-available;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid #000;
+}
+
+/*<-- fonts -->*/
+nav ul { 
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fbdab7;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fbdab7;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #fbdab7;
+    margin-bottom: 0.25vw;
+    margin-top: 0vw;
+}
+
+h3 {
+    color: #fbdab7;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact{
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    width: 45%;
+}
+
+.social{
+display: inline-block;
+    text-align: right;
+    margin: 10px;
+    width: 45%;
+}
+
+footer {
+    margin-bottom: 0vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #773d0d;
+    color: white;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.25);
+}
