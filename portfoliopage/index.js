@@ -65,7 +65,7 @@ function openSite() {
     if (containerProject1.style.display === 'flex'){
         window.location.href = 'https://yaroslavtsybulia.github.io/pawpawcafe/Title%20Screen.html';           
     } else if (containerProject2.style.display === 'flex'){
-        window.location.href = 'https://yaroslavtsybulia.github.io//blackpage/TitleScreen.html';   
+        window.location.href = 'https://yaroslavtsybulia.github.io/blackpage/TitleScreen.html';   
     } else if (containerProject3.style.display === 'flex'){
         window.location.href = 'http://portfoliopage/#project3';   
     } else if (containerProject4.style.display === 'flex'){
