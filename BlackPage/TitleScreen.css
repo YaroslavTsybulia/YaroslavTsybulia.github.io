@@ -1,0 +1,144 @@
+/*<-- main stuff-->*/
+
+body {
+  display: flex;
+  margin-top: 3vw;
+  font-family: '00321';
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.btn, .btn *, .btn :after, .btn :before, .btn:after, .btn:before {
+border: 0 solid;
+box-sizing: border-box;
+font-size: 7vw;
+}
+
+.btn {
+-webkit-tap-highlight-color: transparent;
+-webkit-appearance: button;
+background-color: #000;
+background-image: none;
+cursor: pointer;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+font-size: 100%;
+font-weight: 800;
+line-height: 1.5;
+margin: 0;
+-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+padding: 0;
+text-transform: uppercase;
+border-width: 2px;
+overflow: hidden;
+padding: 8vw 34.75vw;
+position: relative;
+background-image: url("images/BP1.png");
+box-shadow: inset -10px 0px 30px 20px rgb(0 0 0);
+}
+
+.btn:hover{
+  box-shadow: inset -10px 0px 30px 20px rgb(0 0 0);
+}
+
+.btn:disabled {
+cursor: default;
+}
+
+.btn:-moz-focusring {
+outline: auto;
+}
+
+.btn svg {
+display: block;
+vertical-align: middle;
+}
+
+.btn [hidden] {
+display: none;
+}
+
+.btn span {
+mix-blend-mode: difference;
+}
+
+.btn:after, .btn:before {
+--tilt: 1.2rem;
+background: rgb(30 0 30);
+-webkit-clip-path: polygon( 0 0, calc(100% - var(--tilt)) 0, 100% 100%,
+  0 100%
+);
+clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 97.5% 100%, 0 100%);
+content: "";
+display: block;
+height: 100%;
+left: calc(-100% - var(--tilt));
+position: absolute;
+top: 0;
+transform: translateX(var(--progress, 0));
+transition: transform 1s ease;
+width: calc(100% + var(--tilt));
+box-shadow: inset -10px 0px 40px 10px rgb(0 0 0);
+}
+
+.btn:after {
+left: 100%;
+transform: translateX(var(--progress, 0)) rotate(180deg);
+z-index: -1;
+}
+
+.btn:before {
+  background-image: url("images/BP2.png");
+}
+
+.btn:hover:before {
+--progress: 100%;
+background-image: url("images/BP2.png");
+box-shadow: inset -10px 0px 30px 20px rgb(0 0 0);
+}
+
+.btn:hover:after {
+--progress: -100%;
+box-shadow: inset -10px 0px 30px 20px rgb(0 0 0);
+}
+
+.BigLogo{
+  opacity: 0;
+  background-color: rgb(30 0 30);
+  width: 71vw;
+  height: 16vw;
+  transition: opacity 0.5s cubic-bezier(0, 1, 0.5, 1);
+  
+}
+
+img{
+  width: inherit;
+  box-shadow: inset -10px 0px 30px 20px rgb(0 0 0);
+}
+
+.btn-2{
+  opacity: 0;
+  background-color: transparent;
+  font-family: '00321';
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  margin-top: 5vw;
+  cursor: pointer;
+  text-align: center;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 5vw;
+  font-family: '00321';
+  color: #fff;
+}
