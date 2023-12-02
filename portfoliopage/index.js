@@ -95,8 +95,6 @@ function toggleColors(){
 function colorOff() {
     // Check if the background image is not 'none'
     if (header.style.backgroundImage !== 'none') {
-
-
         setTimeout(function () {
             // Set the background image to 'none' for header
             header.style.backgroundImage = 'none';
