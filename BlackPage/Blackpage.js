@@ -22,7 +22,7 @@ carouselContainerB.style.display = 'none';
 carouselContainerG.style.display = 'none';
 
 function openPortfolio(){
-  window.location.href = 'http://portfoliopage'; 
+  window.location.href = 'https://yaroslavtsybulia.github.io'; 
 }
 
 function showSlide(sliderIndex,  container) {
