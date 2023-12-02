@@ -63,7 +63,7 @@ function openProject1() {
 
 function openSite() {
     if (containerProject1.style.display === 'flex'){
-        window.location.href = 'https://yaroslavtsybulia.github.io';           
+        window.location.href = 'http://pawpawcafe/Title Screen.html';           
     } else if (containerProject2.style.display === 'flex'){
         window.location.href = 'http://BlackPage/TitleScreen.html';   
     } else if (containerProject3.style.display === 'flex'){
