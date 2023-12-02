@@ -86,32 +86,6 @@ function openProject2() {
     }
 }
 
-function openProject3() {
-    if (containerMyProjects.style.display !== 'none'){
-
-        setTimeout(function() {
-            
-            containerMyProjects.style.display = 'none';
-
-            containerProject3.style.display = 'flex';
-            
-        }, 100);
-    }
-}
-
-function openProject4() {
-    if (containerMyProjects.style.display !== 'none'){
-
-        setTimeout(function() {
-            
-            containerMyProjects.style.display = 'none';
-
-            containerProject4.style.display = 'flex';
-            
-        }, 100);
-    }
-}
-
 
 function toggleColors(){
     colorOff();
