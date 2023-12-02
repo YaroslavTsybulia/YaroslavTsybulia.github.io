@@ -96,7 +96,6 @@ function colorOff() {
     // Check if the background image is not 'none'
     if (header.style.backgroundImage !== 'none') {
 
-
         setTimeout(function () {
             // Set the background image to 'none' for header
             header.style.backgroundImage = 'none';
@@ -114,6 +113,7 @@ function colorOff() {
 function colorOn() {
     // Check if the background image is 'none'
     if (header.style.backgroundImage === 'none') {
+        
         setTimeout(function () {
             // Set the background image to your desired gradient for header
             header.style.backgroundImage = 'linear-gradient(0deg, rgb(0 0 0 / 0%), rgb(50 30 50 / 50%), rgb(80 40 80 / 50%))';
