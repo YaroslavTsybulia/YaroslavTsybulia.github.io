@@ -1,46 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paw-Paw Cafe</title>
-    <link rel="stylesheet" href="pawpawcafe/css/index.css">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="portfoliopage/index.css">
 </head>
-<body>    
 
-    <!-- Content of your website goes here -->
-    <div class="content">
-    	<center>
-         <img id="smooth-image" src="pawpawcafe/images/Logo.png" alt="Paw-Paw logo" class="hidden" width="400" height="420">
-         <script src="pawpawcafe/index.js"></script>
-         <div class="greetings">
-         
-             <h1>Meet Our Adorable Fur Friends</h1>
-         
-             <p>Experience a world of cuteness at the Paw-Paw Café! Our friendly paw friends are waiting to make your day brighter.</p>
-             
-             <a href="pawpawcafe/Registration.html" class="my-button"> &#128062; Join Us! &#128062; </a>
-         
-         </div>
-        </center>
+<body>
+  <header>
+    <h1>Yaroslav Tsybulia</h1>
+    <h2>Jr.Front-End Developer and Ux designer</h2>
+    <div class="button-container">  
+        <button class="header-button" onclick="openMyProjects()">My Projects</button>   
+        <fieldset class="vt-line"></fieldset>
+        <button class="header-button" onclick="openAboutMe()">About Me</button>
     </div>
+
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round" onclick="toggleColors()"></span>
+        <h4 class="header-text">Colors On</h4>
+      </label>
+    </div>
+      
+  </header>
+  
+  <!--------------------------------------------->
+    <div class="containerMyProjects">
+      <div class="project">
+        <div class="picture" onclick="openProject1()">
+          <img src="portfoliopage/images/Pic1.png" alt="Image 1"> 
+        </div>
+        <h3>Project 1</h3>
+      </div>  
+      <div class="project" onclick="openProject2()"> 
+        <div class="picture">
+        <img src="portfoliopage/images/Pic2.png" alt="Image 2">
+        </div>
+        <h3>Project 2</h3>
+      </div>
+      <div class="project" onclick="openProject3()">  
+        <div class="picture" >
+        <img src="portfoliopage/images/Pic3.png" alt="Image 3">
+        </div>
+        <h3>Project 3</h3>
+      </div>
+      <div class="project" onclick="openProject4()">  
+        <div class="picture">
+        <img src="portfoliopage/images/Pic3.png" alt="Image 4">
+        </div>
+        <h3>Project 4</h3>
+      </div>  
+    </div>
+
+    <div class="containerAboutMe">
+      <h2> Hello there. Name's Yaroslav, a Junior Front-End Developer on the lookout for exciting opportunities to further enrich my professional journey.</h2>
+      <h2>As a Front-End Developer, I thrive on crafting seamless and visually appealing user experiences. I am well-versed in HTML, CSS, and JavaScript, and I'm always eager to stay ahead in the dynamic world of web development.</h2>
+      <h2>Currently seeking new experiences and challenges to broaden my skill set, I am open to collaborations and projects that allow me to contribute my expertise while continually learning and growing.</h2>
+      <h2>Outside the coding realm, I'm an avid cinephile. You'll often find me immersed in movies from various genres, exploring the diverse narratives that the film world has to offer. When I'm not coding or watching films, I enjoy diving into games of different genres, finding inspiration in their storytelling and design.</h2>
+      <h2>Additionally, I have a creative side that extends to drawing. I find joy in bringing ideas to life on both the digital and traditional canvas.</h2>
+      <h2>Let's connect and explore the possibilities of working together! Feel free to reach out for discussions on development, movies, games, or anything in between.</h2>
+    </div>
+
+    <div class="containerProject1">
+      <div class="project">
+        <h3>Paw-Paw Cafe</h3>
+
+        <div class="picture">
+         <img src="portfoliopage/images/Pic1.png" alt="Image 1"> 
+        </div>
+
+        <h4>This is my first site I've started creating back in university. In short, this site supposed to be a just a cafe, but I decided to turn it into a pet cafe, where customers could come with their pets and both have a good time like in normal cafe for people only. It's simple, with basic fonts but with the idea of site was to create comfortable interface.</h4>
+      </div>  
+      
+      <div class="button-container">
+      <button class="header-button" onclick="openMyProjects()">Back to projects</button>   
+        <fieldset class="vt-line"></fieldset>
+        <button class="header-button" onclick="openSite()">Open the page</button>
+      </div>
+    </div>
+    
+    <div class="containerProject2">
+      <div class="project">
+        <h3>BlackPage</h3>
+
+        <div class="picture">
+        <img src="portfoliopage/images/Pic2.png" alt="Image 2">
+        </div>
+        
+        <h4>This site is a something. I guess this site is less about specific theme but about things I can create and which I haven't implemented in any site I made before(for some reasons).</h4>
+      </div>
+
+      <div class="button-container">
+        <button class="header-button" onclick="openMyProjects()">Back to projects</button>   
+          <fieldset class="vt-line"></fieldset>
+          <button class="header-button" onclick="openSite()">Open the page</button>
+        </div>  
+    </div>
+
+    <div class="containerProject3">
+      <div class="project">
+        <div class="picture">
+        <img src="portfoliopage/images/Pic3.png" alt="Image 3">
+        </div>
+        <h3>Project 3</h3>
+      </div>
+      <div class="button-container">
+        <button class="header-button" onclick="openMyProjects()">Back to projects</button>   
+          <fieldset class="vt-line"></fieldset>
+          <button class="header-button" onclick="openSite()">Open the page</button>
+        </div>  
+    </div>
+
+    <div class="containerProject4">
+      <div class="project">
+        <div class="picture">
+        <img src="portfoliopage/images/Pic3.png" alt="Image 4">
+        </div>
+        <h3>Project 4</h3>
+      </div>
+      <div class="button-container">
+        <button class="header-button" onclick="openMyProjects()">Back to projects</button>   
+          <fieldset class="vt-line"></fieldset>
+          <button class="header-button" onclick="openSite()">Open the page</button>
+        </div>  
+    </div>
+
+    <script src="portfoliopage/index.js"></script>
+
 <!--------------------------------------------->
-    <footer>
+        <footer>
         <div class="contact">
-            <h2>Contact Us</h2> 
-            <h3>Email: info@pawpawcafe.com</h3>
-            <h3>Phone: (123) 456-7890</h3>
+            <h2>Contact Me</h2> 
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=XBcJlDMlwKnssrcdhmtjxXmXRZnkMbHPnzdmmTWdkqJGkMXzPLmHjLJhHvwRShNnxQjHsXSBGKpJnVwb" target="_blank">Email: yaroslav.tsibulia@gmail.com</a>
+            <p><a>Phone: (786)-953-3566</a></p>
         </div>
         <div class="social">
             <h2>Follow Us</h2>
             <ul>
-                <li><a href="#paw_paw_cafe" target="_blank">Facebook</a></li>
-                <li><a href="#paw_paw_cafe" target="_blank">Twitter</a></li>
-                <li><a href="#paw_paw_cafe" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/YaroslavTsybulia" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/yaroslav-tsybulia/" target="_blank">LinkedIn</a></li>
+                <li><a href="#paw_paw_cafe" target="_blank">Indeed</a></li>
             </ul>
         </div>
-        <div class="clear"></div>
-        <h2>&copy; 2023 Paw-Paw Café</h2>
     </footer>
+
 </body>
 </html>
