@@ -24,5 +24,5 @@ function BigButton() {
 }
 
 function NextPage(){
-    window.location.href = 'http://blackpage/Blackpage.html'; 
+    window.location.href = 'http://blackpage/Main.html'; 
   }
